@@ -222,7 +222,17 @@ h1 .pillar-title{
 }
 
 /* statment */
-
+.statment{
+    margin-top:32px ;
+    background-color: #ffffff;
+    border:2px solid black;
+    border-radius:16px ;
+    padding-top:48px;
+    padding-bottom: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.statment
 
 
 
@@ -382,8 +392,8 @@ h1 .pillar-title{
 
 }
 
-.footer-section{
-    border:2px solid black;
+.sub-section{
+    /* border:2px solid black; */
     border-radius:24px ;
     text-align: center;
     background-color:#C6E4D6 ;
@@ -392,7 +402,7 @@ h1 .pillar-title{
 
    
 }
-.footer-input{
+.sub-input{
     display: flex;
     /* border: 2px solid rgb(249, 21, 21);
     */
@@ -410,7 +420,7 @@ h1 .pillar-title{
     border: none;
    
 }
-.footer-btn{
+.sub-btn{
    padding: 17px 40px;
     background-color:#006A50;
     border-radius: 5px;
@@ -420,9 +430,30 @@ h1 .pillar-title{
     font-weight: 600;
     margin-left: -7px;
 }
-.footer-btn:hover{
+.sub-btn:hover{
     opacity: 0.8;
 }
+
+.footer{
+  
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:25px 160px ;
+  
+}
+ .footer hr{
+    margin-top: 25px;
+ }
+.footer-img {
+    margin-top:30px ;
+    gap:20px
+}
+.footer-img .img-1{
+    margin-right: 25px;
+}
+
 
 
 
