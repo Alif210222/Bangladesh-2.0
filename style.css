@@ -1,0 +1,229 @@
+*{
+    margin:0 ;
+    padding:0;
+
+}
+
+/* shared style */
+.btn{
+    padding:10px 30px;
+    font-family:Fira Sans ;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.content {
+    color: #525252;
+
+}
+
+body{
+    background-color:#f5f5f5;
+    margin-left:120px ;
+    margin-right: 120px;
+    font-family: Fira Sans ;
+}
+
+.nav-content{
+    padding-top: 30px;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.nav-logo{
+  font-family: Fira Sans ;
+  font-size: 32px;
+  font-weight: bold;
+}
+.header-btn{
+    padding:10px 30px;
+    font-family:Fira Sans ;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(10, 138, 10);
+    border-radius: 8px;
+    border:2px solid rgb(10, 138, 10);
+    transition: 0.2s;
+}
+
+.header-btn:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+    border-color: rgb(27, 245, 45);
+}
+
+.banner-container{
+    /* border:2px solid black; */
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right:50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* width: 1280px;
+    height: 560px; */
+}
+
+.banner-subtitle{
+    font-size: 24px;
+    font-weight: medium;
+    opacity: 40%;
+}
+.banner-title{
+    margin-top: 30px;
+    font-size: 52px;
+    font-weight: bold;
+}
+.baanner-btn{
+    margin-top: 30px;
+    padding:18px 34px;
+    font-family:Fira Sans ;
+    background-color:#006A50 ;
+    font-size: 18px;
+    font-weight:700;
+    color: white;
+    border-radius:8px ;
+    border:none;
+}
+.baanner-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.main-container{
+    margin-top: 190px;
+    /* border:2px solid black; */
+}
+
+h1 .pillar-title{
+  
+    padding-top: 80px;
+    font-family:Fira Sans ;
+    font-size: 42px;
+
+    font-family: bold;
+    margin-bottom: 32;
+   
+
+}
+
+.pillar-box{
+    /* border:2px solid black 
+    ; */
+    margin-bottom: 40px;
+    gap:24px;
+    display: flex; 
+    margin-top: 32px;
+   
+   
+
+}
+
+.pillar-box-1{
+    border:1px solid rgb(194, 192, 192);
+    border-radius:16px;
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 200px;
+    padding: 24px;
+   
+}
+.subtitle{
+   color:rgb(68, 68, 68);
+   margin-bottom: 5px;
+}
+.pillar-box-1 img{
+    margin-bottom: 24px;
+}
+.pillar-box-1 h3{
+   font-family: Fira Sans;
+   font-size: 20px;
+   font-weight: bold;
+   padding-bottom: 4px;
+}
+.pillar-box-1  .content {
+      color: #525252;
+
+}
+
+/* vision style */
+.vision-container{
+    margin-top: 120px;
+}
+
+.vision-title{
+    margin-bottom: 24px;
+}
+.vision-content{
+    margin-bottom: 32px;
+}
+
+.vision-box-container{
+    /* border:2px solid black ; */
+    margin-bottom: 30px;
+    display: flex;
+    gap:24px;
+}
+
+.vision-box-1{
+    /* border:2px solid black ; */
+    border-radius: 16px;
+    padding: 32px;
+    width:330px;
+    height: 265px;
+    background-color:rgb(210, 231, 250);
+}
+.vision-box-2{
+    background-color:#C6E4D6 ;
+}
+.vision-box-3{
+    background-color:#F7EBCF ;
+}
+.vision-box-1 img{
+    margin-bottom: 24px;
+}
+
+.vision-subtitle{
+    margin-bottom: 24px;
+}
+.vision-content{
+    margin-bottom: 24px;
+}
+.vision-btn{
+
+    border: none;
+    border-radius: 8px;
+    padding:11px 20px ;
+    background-color:#5490F5 ;
+    margin-bottom: 32px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.btn-2{
+   background-color:#09A15C ;
+}
+
+.btn-3{
+
+}
+.vision-btn:hover{
+       opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
