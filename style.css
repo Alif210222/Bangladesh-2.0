@@ -218,6 +218,74 @@ h1 .pillar-title{
        opacity: 0.8;
 }
 
+.recent-box-container{
+    /* border: 2px solid black; */
+    /* margin: 50px; */
+    width:1220px;
+    margin-top: 20px;
+    
+
+    
+}
+.recent-title{
+    margin-top: 100px;
+    padding-top:38px;
+}
+
+
+
+.recent-box-1{
+    /* border: 2px solid black; */
+    border-radius: 24px;
+    padding: 48px;
+    gap: 32px;
+    height: 300px;
+    display:flex;
+    margin:24px ;
+    background-color:#FFFFFF  ;
+    margin-bottom: 24px;
+   
+    
+}
+.recent-box-1-img img{
+    /* border:  2px solid black; */
+    border-radius:24px ;
+}
+.recent-box-1-content h1{
+    margin-bottom: 12px;
+}
+.recent-box-1-content img{
+    margin-bottom: 12px;
+}
+.recent-box-1-content .recent-1-date{
+    margin-bottom: 12px;
+}
+
+.recent-1-content{
+    color:rgb(99, 98, 98)
+    
+}
+.recent-box-1-content .recent-1-content{
+    margin-bottom: 24px;
+}
+.recent-box-1-btn{
+    margin-top: 10px;
+    padding:15px 26px;
+    background-color:#006A50 ; 
+    color:white;
+    border:none;
+    border-radius: 8px;
+    font-family: Fira Sans;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.recent-box-1-btn:hover{
+    opacity: 0.8;
+     
+}
+
 
 
 
