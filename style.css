@@ -125,7 +125,9 @@ h1 .pillar-title{
     margin-bottom: 40px;
     gap:24px;
     display: flex; 
+    justify-content:space-between;
     margin-top: 32px;
+   
    
    
 
@@ -175,6 +177,7 @@ h1 .pillar-title{
     /* border:2px solid black ; */
     margin-bottom: 30px;
     display: flex;
+    justify-content:space-between;
     gap:24px;
 }
 
@@ -260,8 +263,13 @@ h1 .pillar-title{
 .recent-box-container{
     /* border: 2px solid black; */
     /* margin: 50px; */
-    width:1220px;
+    width:1680px;
+    height: 1406px;
     margin-top: 25px;
+    display: flex;
+    /* justify-content: center; */
+
+    align-items: center;
     
 
     
@@ -271,6 +279,12 @@ h1 .pillar-title{
     padding-top:38px;
 }
 
+.recent-boxs{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+
+}
 
 
 .recent-box-1{
@@ -333,6 +347,7 @@ h1 .pillar-title{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
+   
 }
 .donate-subtitle{
     margin-top: 24px;
@@ -413,26 +428,34 @@ h1 .pillar-title{
     opacity: 0.8;
 
 }
+.subs-container{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   /* border:2px solid black; */
+  
+}
 
 .sub-section{
-    /* border:2px solid black; */
+    /* border:2px solid rgb(188, 31, 31); */
     border-radius:24px ;
     text-align: center;
     background-color:#C6E4D6 ;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding:90px;
+    height: 300px;
+    width: 1480px;
 
    
 }
-.sub-input{
-    display: flex;
-    /* border: 2px solid rgb(249, 21, 21);
-    */
-    justify-content: space-between;
-    width: 750px;
-    margin-left: 100px;
+
+.subscribe-item{
+    text-align: center;
 }
+
 .input-email{
+    
     padding-left:20px ;
     height: 56px;
     width: 750px;
